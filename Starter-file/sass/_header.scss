@@ -2,14 +2,14 @@
 
 * {
     text-decoration: none;
-    
+   
 }
 
 .header {
     
     &__nav {
         
-        width: 100%;
+        
         padding: 0 ;
         background: url("../../../Design/Assets/png/Merged bar-3.png");
         display: flex;
@@ -39,7 +39,8 @@
     }
 
     &__text {
-        width: 100%;
+
+        
         background: url("../../../Design/Assets/png/En chiffres-24.png");
         text-align: center;
         line-height: 2.5;
@@ -53,7 +54,7 @@
     }
 
     &__parag {
-        width: 50%;
+        width: 100%;
         font-weight: bold;
         font-size: 0.9em;
         margin: 0 auto;
@@ -63,13 +64,15 @@
 }
 
 .main {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 2em 3em;
     font-weight: bold;
 
     &__img {
-        width: 46%;
+        
+        
         height: 25em;
     }
 
@@ -102,9 +105,10 @@
     }
 
     &__parag {
+        
         text-align: center;
         line-height: 1.8em;
-        font-size: 2.3em;
+        font-size: 2em;
         color: $color2;
 
         &--color {
@@ -112,6 +116,8 @@
         }
     }
 }
+
+
 
 
 
