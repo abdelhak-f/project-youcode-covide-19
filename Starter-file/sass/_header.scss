@@ -2,16 +2,13 @@
 
 * {
     text-decoration: none;
-   
 }
 
 .header {
-    
     &__nav {
         
-        
-        padding: 0 ;
-        background: url("../../../Design/Assets/png/Merged bar-3.png");
+        padding: 0 2em;
+        background: url("../../../Design/Assets/png/Merged_bar-3@2x.png");
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -19,7 +16,6 @@
 
     &__menu {
         a {
-            
             margin-right: 3rem;
             color: #1078AD;
             font-weight: bolder;
@@ -39,12 +35,9 @@
     }
 
     &__text {
-
-        
-        background: url("../../../Design/Assets/png/En chiffres-24.png");
+        background: url("../../../Design/Assets/png/En\ chiffres-24.png");
         text-align: center;
         line-height: 2.5;
-        margin-top: -25px;
     }
 
     &__title {
@@ -54,7 +47,7 @@
     }
 
     &__parag {
-        width: 100%;
+        width: 50%;
         font-weight: bold;
         font-size: 0.9em;
         margin: 0 auto;
@@ -63,16 +56,17 @@
     }
 }
 
+
+
+
 .main {
-   
     display: flex;
     justify-content: space-between;
     padding: 2em 3em;
     font-weight: bold;
 
     &__img {
-        
-        
+        width: 46%;
         height: 25em;
     }
 
@@ -82,7 +76,7 @@
 
 
         img {
-            width: 30.5%;
+            width: 3.5em;
             margin-left: 45%;
         }
 
@@ -105,10 +99,9 @@
     }
 
     &__parag {
-        
         text-align: center;
-        line-height: 1.8em;
-        font-size: 2em;
+        line-height: 1.8;
+        font-size: 2.3em;
         color: $color2;
 
         &--color {
@@ -116,9 +109,3 @@
         }
     }
 }
-
-
-
-
-
-

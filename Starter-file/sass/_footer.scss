@@ -1,22 +1,21 @@
-@import 'var.scss';
 
+*{
+    list-style-type: none;
+}
 .footer {
-
-    
     text-align: center;
     height: 30em;
-    width: 100%;
+    max-width: 93%;
     margin: 0 auto;
     &__img {
         margin-left: -5em;
         margin-top: 2em;
     }
     &__contain {
-
         display: flex;
         justify-content: space-around;
         margin-top: 2em;
-        &--center {
+        &--middle {
             h2 {
                 color: #1078AD;
                 font-weight: bolder;
@@ -42,7 +41,6 @@
             font-size: 15px;
             text-align: left;
             margin-top: 3em;
-            line-height: 1.8em;
         }
         .footer__col1 {
             text-align: center;
@@ -51,7 +49,7 @@
                 list-style-type: none;
                 margin-bottom: 2em;
             }
-            .footer__col2 {
+            .footer__col11 {
                 padding: 5px 10px;
                 font-size: 16px;
                 border: 1px solid #1078AD;
@@ -61,30 +59,28 @@
                     color: #F4CF1B;
                 }
             }
-            .footer__col3 {
+            .footer__col22 {
                 font-size: 20px;
                 color: #1078AD;
                 font-weight: bolder;
             }
-            .footer__col4 {
+            .footer__col33 {
                 font-weight: bold;
                 font-size: 16px;
                 font-size: 20px;
             }
-            .footerr {
+            .footer33 {
                 text-align: left;
-                
             }
             .bottom {
                 height: 50px;
                 width: 100%;
                 background-color: #1078AD;
                 border-radius: 5px 5px 0 0;
-            
             }
         }
     }
-
+    
     .bar{
        background-color:  $btn_color;
         width: 100%;
