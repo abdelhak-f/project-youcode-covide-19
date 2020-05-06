@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="./css/fontawsome/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo:300,400,600,700,900&display=swap&subset=arabic">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="script.js"></script>
+        
+    </head>
+
+<body>
+
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__logo">
+                <img src="../../Design/Assets/png/logo__sante-48.png" alt=" " title="Ministère logo">
+            </div>
+            <div class="header__menu">
+                <a href="../../conseil.html">Conseil</a>
+                <a href="../../index.html">Accueil</a>
+                <a href="#">ﻋﺮﺑﻲ &nbsp;&nbsp;<i class="fas fa-globe"></i></a>
+            </div>
+        </nav>
+       
+    </header>
+  
+  <div class="stepper" id="stepper"> 
+    <ul class="list"  id="list">
+        <li class="list__item list__item--active" >Information</li>
+        <li class="list__item" >Questionnaire</li>
+        <li class="list__item" >Résultats</li>
+    </ul>
+    </div>
+
+    
+       
+<!------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------quitions--------------------------------------------------------------------------------------------->    
+<!--<div class="box" id="box">
+    <div class="progressbar-box" >
+        <div class="conteur" id ='count'>count</div>
+        <div class="progressbar" >
+            <div class="progress" id="pro"></div
+        ></div>
+ </div>-->
+
+ <div id="progressbar">
+    <div class="conteur" id="count" style="width: 5%;"></div>
+    <div class="progressbar">
+        <div class=" progress " id="pro"></div>
+    </div>
+  </div>
+     
+  <div id="questions" id="questionnaire">
+    <p>Pensez-vous avoir ou avoir eu de la fièvre ces derniers jours (frissons, sueurs) ?</p>
+    <label for="oui">Oui</label>
+  <input type="radio" value="oui" id="oui" name="choice"><br>
+  <label for="non">Non</label>
+  <input type="radio" id="non" value="non" name="choice"><br>
+</div>
+
+    <div class="questionnaire" id="questionnaire"></div>
+    <div class="réponce" id="réponce"></div>
+
+    <div class="Anti-inflammatoires quest" id="Anti-inflammatoires">
+        <h3>Anti-inflammatoires non stéroïdiens</h3>
+        <p>
+           La prise d'anti-inflammatoires (ibuprofène, cortisone ...)
+            pourrait être un facteur d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.
+             Cette remarque concerte les traitements par gélules ou comprimés et ne concerne pas les formes inhalées.
+            Si vous êtes déjà sous traitement, n'arrêtez pas ce traitement,
+             demandez l'avis de votre médecin ou de votre pharmacien. </p>
+
+
+    </div>
+    <button  id="test__btn" class="test__btn">Question suivante</button>
+    <div class="button">
+       <button class="btn" id="pré">précédant </button>
+       <button class="btn" id="sui">suivant</button>
+    </div>
+</div>
+
+<!------------------------ resultat------------------------------------------------------------------------------------>
+<!--<div class="ruseltas" id="resultat">
+    <div class="h3">
+        <h3>Votre état ne semble 
+            pas préoccupant.</h3>
+            
+    </div>
+    <div class="rusel">
+        <h2>Restez chez vous. </h2>
+        <p>#RestezChezVous - limitez les contacts avec d'autres personnes.
+           Le virus peut être propagé par des porteurs ne montrant pas de symptômes.</p>
+     </div>
+     <div class="répandre">
+        <button class="repon" id="répan">reprendre le test</button>
+       </div>
+</div> --> 
+
+<!-- ---------------------------------------------- début phase des Recommandations ----------------------------- -->
+    
+<section class="recommand">
+    
+    <div class="container">
+        <div>
+            <h2 class="recommand__title">Recommandations officielles</h2>
+        </div>
+        <div class="recommand__row">
+            <div class="recommand__list">
+                <p>Si vous pensez être malade,</p>
+                <ul>
+                    <li>Evitez les endroits publics.</li>
+                    <li>Ne rendez pas visite aux personnes fragiles.</li>
+                    <li>Restez chez vous.</li>
+                    <li>Respectez les mesures barrière (lavage de main, masque).</li>
+                    <li>Surveillez vos symptômes, l’évolution de votre température corporelle et recherchez un avis
+                        médical.</li>
+                </ul>
+            </div>
+
+            <div class="recommand__appel">
+                <h5>Appel Gratuit</h5>
+                <span>080 100 47 47</span>
+                <p>www.sante.gov.ma</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ----------------------------- fin phases de Recommandations ---------------------------- -->
+
+<!-- -------------------------------------------------------statrt Footer------------------------------------------ -->
+
+<section class="footer">
+
+    <img src="Design/Assets/png/logo__sante-48.png" alt="" class="footer__img">
+    <div class="footer__contain">
+        <div class="footer__col1">
+            <ul>
+                <li class="footer__col2">FRAN &nbsp;&nbsp;<i class="fas fa-globe"></i> </li>
+                <li class="footer__col3"> <a href="index.html"> Accueil</a></li>
+                <li class="footer__col4"> <a href="conseil.html">Conseil</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer__contain--middle">
+            <ul>
+                <li>
+                    <h2>Contacts utiles</h2>
+                </li>
+                <li>
+                    <p>Chiffre économique "Alo épidémie vigilance"</p>
+                </li>
+                <li>
+                    <h4>080 100 47 47</h4>
+                </li>
+                <li>
+                    <p>Aide médicale urgente</p>
+                </li>
+                <li>
+                    <h4>141</h4>
+                </li>
+            </ul>
+        </div>
+
+        <p class="footer__contain--text">Algorithme d'orientation mis à jour sur les recommandations en vigueur
+            au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical,
+            il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance
+            Digitale contre le COVID-19 : @maladiecovid19</p>
+
+    </div>
+    
+    <div class="bar"></div>
+</section>
+
+
+<!-- ---------------------------------------------------fin Footer-------------------------------------- -->
+
+   
+</body>
+</html>
+
+
+
+
+
+

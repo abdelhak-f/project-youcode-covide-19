@@ -6,6 +6,7 @@
   "scripts": {
     "compile": "node-sass Starter-file/sass/style.scss Starter-file/dist/css/style.css -w"
      
+    
   },
   "repository": {
     "type": "git",
