@@ -81,20 +81,20 @@
             margin-left: 45%;
         }
 
-
     }
 
     &__btn {
         margin-top: 1em;
-        background-color: $btn_color;
-        padding: 0.4em 14em;
+        background-color: $color1;
+        padding: 0.9em 14em;
         border-radius: 10px;
         cursor: pointer;
 
         a {
             color: white;
-            font-size: 1.2em;
+            font-size: 1.5em;
             padding-left: 30%;
+
 
         }
 
@@ -104,10 +104,10 @@
         text-align: center;
         line-height: 1.8;
         font-size: 2.3em;
-        color: $color2;
+        color: $color1;
 
         &--color {
-            color: $btn_color;
+            color: $color1;
         }
     }
 }

@@ -55,21 +55,21 @@
       margin-left: 45%; }
   .main__btn {
     margin-top: 1em;
-    background-color: #FFFFFF;
-    padding: 0.4em 14em;
+    background-color: #1078ad;
+    padding: 0.9em 14em;
     border-radius: 10px;
     cursor: pointer; }
     .main__btn a {
       color: white;
-      font-size: 1.2em;
+      font-size: 1.5em;
       padding-left: 30%; }
   .main__parag {
     text-align: center;
     line-height: 1.8;
     font-size: 2.3em;
-    color: #adddf5; }
+    color: #1078ad; }
     .main__parag--color {
-      color: #FFFFFF; }
+      color: #1078ad; }
 
 .sympt {
   margin-top: 10em;
@@ -418,21 +418,21 @@
   display: block; }
   .préambule .text {
     padding: 40px;
-    background-color: #F4CF1B;
+    background-color: #88d7ff;
     margin: 50px auto;
     width: 80%;
-    color: #1078ad;
+    color: #252424;
     text-align: center;
     border-radius: 10px; }
     .préambule .text h3 {
-      color: #787878;
+      color: #1078ad;
       font-size: large;
       font-weight: 700; }
     .préambule .text P {
       font-size: small;
       font-weight: bold; }
     .préambule .text hr {
-      border: 1px solid #1078ad;
+      border: 1px solid #F4CF1B;
       width: 40%;
       margin: 10px auto; }
   .préambule .test {
@@ -444,12 +444,13 @@
       border: 1px solid #1078ad;
       border-radius: 5px;
       background-color: #1078ad;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      cursor: pointer; }
 
 .box {
   text-align: center;
   display: none;
-  color: #787878;
+  color: #252424;
   font-size: small; }
   .box .progressbar-box {
     display: flex;
@@ -463,7 +464,7 @@
       width: 90%;
       height: 10px;
       border: 1px solid #1078ad;
-      background-color: #adddf5;
+      background-color: #88d7ff;
       margin: auto;
       border-radius: 10px;
       margin-bottom: 5%; }
